@@ -3,4 +3,6 @@ project(taskA)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(taskA main.cpp mat.hpp mat.cpp Test.cpp)
+add_executable(taskA mat.cpp mat.hpp Main.cpp )
+
+add_executable(taskTrain check.cpp)

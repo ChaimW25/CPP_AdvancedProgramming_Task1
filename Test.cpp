@@ -6,6 +6,8 @@ using namespace ariel;
 
 #include <string>
 #include <algorithm>
+#include <list>
+
 using namespace std;
 
 /**
