@@ -10,7 +10,6 @@ using namespace std;
 namespace ariel {
 
     string mat(int col, int row, char sym1, char sym2) {
-//        try {
         if (row % 2 == 0 || row <= 0 || col % 2 == 0 || col <= 0) {
             throw ("Illegal numbers of col an row");
 
@@ -18,7 +17,7 @@ namespace ariel {
         if (sym1 <minChar || sym1 > maxChar || sym2<minChar || sym2 > maxChar) {
             throw ("Illegal chars");
         }
-//        char a[row][col];
+        //init a 2D vector hols the matrix
         vector<vector<char>> a(row,vector<char>(col));
         int minLen=0;
         int numOfChanges=0;

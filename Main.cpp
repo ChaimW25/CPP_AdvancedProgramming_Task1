@@ -5,7 +5,6 @@
     int main() {
 
         std::cout << "Hello, World!" << std::endl;
-//    std::cin >> row;
         string str;
         int row, col;
         char symbol1, symbol2;
