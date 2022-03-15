@@ -1,8 +1,11 @@
 #include <iostream>
 #include <string>
 #include "mat.hpp"
-using namespace ariel;
+//#include "mat.cpp"
+using namespace std;
+//using namespace ariel;
     int main() {
+
         std::cout << "Hello, World!" << std::endl;
 //    std::cin >> row;
         string str;

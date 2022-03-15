@@ -1,4 +1,3 @@
-# Solution
 solution*
 
 # Prerequisites
@@ -35,8 +34,3 @@ solution*
 *.app
 demo
 test
-
-# vs code configuration
-**/.vscode
-# Project exclude paths
-/cmake-build-debug/
